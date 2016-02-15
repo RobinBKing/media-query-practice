@@ -87,9 +87,34 @@ nav a:hover {
   padding: 20px 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+.inline  {
+  float: right;
+  width: 45%;
+  min-width: 200px;
+  padding: 5px;
+  display: inline;
+  margin: 0 0 1em 0.5em;
+}
+
+
+
 /*************************
 Media Queries
 *************************/
+@media only screen and (max-width: 470px) {
+  .inline {
+    float: none;
+    display: block;
+    width: 90%;
+    margin: 0 auto 2em;
+    min-width: 200px;
+  }
+}
+
 @media only screen and (min-width: 480px) {
   nav a {
     float: left;
