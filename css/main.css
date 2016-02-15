@@ -87,7 +87,6 @@ nav a:hover {
   padding: 20px 0;
 }
 
-
 /*************************
 Media Queries
 *************************/
@@ -107,56 +106,25 @@ Media Queries
   }
 }
 
-
-
-/*@media only screen and (min-width: 480px) {
-
-  nav a {
-    float: left;
-    width: 30%;
-    margin: 0 0 0 5%;
-    padding: 25px 1%;
-    margin-bottom: 0;
-  }
-
-  nav li:first-child a {
-    margin-left: 0px;
-  }
-
-  nav li:last-child a {
-    margin-right: 0px;
-  }
-
-}
-
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
-
-  .title {
-    float: left;
-    font-size: 1.4em;
-  }
-
-  nav {
-    float: right;
-    width: 60%;
-  }
-
-  nav a {
-    padding: 15px 1%;
-  }
-
-  .main article {
-    float: left;
-    width: 57%;
-  }
-
-  .main aside {
+    .main aside {
     float: right;
     width: 38%;
   }
-
+    .main article {
+      float: left;
+      width: 57%;
+    }
+    .title {
+      float: left;
+    }
+    nav {
+      float: right;
+      width: 50%;
+    }
 }
+
 
 @media only screen and (min-width: 1140px) {
 
@@ -170,11 +138,9 @@ Media Queries
   }
 
   nav a {
-    padding: 25px 1%;
+    padding: 25px 0%;
   }
-
-}*/
-
+}
 
 /*************************
 Clearfix
